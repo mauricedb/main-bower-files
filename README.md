@@ -46,6 +46,9 @@ gulp.task('TASKNAME', function() {
 });
 ```
 
+Alternatively you can use [gulp-main-bower-files](https://www.npmjs.com/package/gulp-main-bower-files) instead.
+
+
 #### You've got a flat folder/file structure after `.pipe(gulp.dest('my/dest/path'))`?
 
 `mainBowerFiles` returns an array of files where each file is a absolute path without any globs (** or *). gulp requires globs in these paths to apply the base path. Because of this, you always have to tell gulp your bower base path (the path to the bower_components directory) explicitly.
