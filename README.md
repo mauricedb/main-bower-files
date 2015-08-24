@@ -30,7 +30,7 @@ var files = mainBowerFiles([[filter, ]options][, callback]);
 
 If first argument is type of `String`, `Array` or `RegExp` it will be used as a filter, otherwise it will be used as options.
 
-This will read your `bower.json`, iterate through your dependencies and returns an array of filesdefined in the main property of the packages `bower.json`.
+This will read your `bower.json`, iterate through your dependencies and returns an array of files defined in the main property of the packages `bower.json`.
 
 You can override the behavior if you add an `overrides` property to your own `bower.json`.
 
